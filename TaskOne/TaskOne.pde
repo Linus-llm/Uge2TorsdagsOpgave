@@ -1,46 +1,42 @@
-String month = "April";
-int days31 = 31;
-int days30 = 30;
-int days28 = 28;
-
+String month = "Februar";
+int days = 0;
 switch(month) {
 case "Januar":
-  println(month+" har "+days31+" dage");
+  days = 31;
   break;
 case "Februar":
-  println(month+" har "+days28+" dage");
+  days = 28;
   break;
 case "March":
-  println(month+" har "+days31+" dage");
+  days = 31;
   break;
 case "April":
-  println(month+" har "+days30+" dage");
+  days = 30;
   break;
 case "May":
-  println(month+" har "+days31+" dage");
+  days = 31;
   break;
 case "June":
-  println(month+" har "+days30+" dage");
+  days = 30;
   break;
 case "July":
-  println(month+" har "+days31+" dage");
+  days = 31;
   break;
 case "August":
-  println(month+" har "+days31+" dage");
+  days = 31;
   break;
 case "September":
-  println(month+" har "+days30+" dage");
+  days = 30;
   break;
 case "October":
-  println(month+" har "+days31+" dage");
+  days = 31;
   break;
 case "November":
-  println(month+" har "+days30+" dage");
+  days = 30;
   break;
 case "December":
-  println(month+" har "+days31+" dage");
-  break;
-default:
-  println("Invalid try again");
+  days = 31;
   break;
 }
+
+println(month+" har "+days+" dage");
