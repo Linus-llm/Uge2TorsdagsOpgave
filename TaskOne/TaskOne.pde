@@ -1,6 +1,6 @@
-String month = "Februar";
-int days = 0;
-switch(month) {
+String month = "Februar"; //1.a
+int days = 0; //1.a
+switch(month) { //1.b
 case "Januar":
   days = 31;
   break;
@@ -39,4 +39,4 @@ case "December":
   break;
 }
 
-println(month+" har "+days+" dage");
+println(month+" har "+days+" dage"); //1.c
