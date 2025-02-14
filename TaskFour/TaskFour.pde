@@ -10,12 +10,17 @@ println(); //mellemrums print linje
 for (i=0; i<=20; i+=2) {
   println(i);
 }
+// for(i=0;i<=20;i++){
+ // if(i%2==0){
+//    println(i);
+//  }
+//}
 
 println(); //mellemrums print linje
 
 //4.c Lav en variabel kaldet start og tildel den en int værdi. Lav et for-loop, som tæller 1 ned fra værdien af variablen start. Når dit for-loop når til 0, skal den printe "Take Off!"
-int start;
-for (start=10; start>=0; start--) {
+int start = 12;
+for (start = 10; start>=0; start--) {
   switch(start) {
   case 3:
     println("THREE");

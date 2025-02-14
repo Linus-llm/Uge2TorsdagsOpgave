@@ -1,4 +1,4 @@
-String month = "Februar"; // 1.a
+String month = "Februar"; //1.a
 int days = 0; //1.a
 switch(month) { //1.b
 case "Januar":
