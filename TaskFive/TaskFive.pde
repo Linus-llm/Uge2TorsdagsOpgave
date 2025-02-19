@@ -11,7 +11,7 @@ void setup() {
 
 void methodOne()
 {
-  int i = 9; // You are not allowed to change this line. 
+  int i = 13; // You are not allowed to change this line. 
   
   int max = 10;
   
